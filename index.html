@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module" src="script.js"></script>
+
+    <title>Webová aplikace</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Webová aplikace</h1>
+      <form action="form" id="form">
+        <label>Name</label>
+        <input type="text" id="userName" />
+        <label for="userMsg">Zpráva</label><br />
+        <input type="text" id="userMsg" />
+        <button type="submit">Submit</button>
+      </form>
+      <h2>Chat</h2>
+      <ul id="messages"></ul>
+    </div>
+  </body>
+</html>
